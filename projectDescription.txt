@@ -1,0 +1,35 @@
+
+Java 1.8
+
+Technologies USed:-
+	(1)Spring
+	(2)Spring MVC
+	(3)Spring AOP
+	(4)AngularJS
+	(5)Hibernate
+	(6)RESTful
+	(7)JSON
+	(8)MySQL
+	(9)Maven
+	
+	Please see pom.xml to see the versions used 
+	
+	Build the application:
+	(1) Open command prompt and navigate to the root directory of the project (HotelReservation)
+	(2) Execute Mvn clean install and wait for build success
+	(3) Copy the .war from target folder and paste in the Tomcat->Webapp folder
+	(4) deploy the server
+	(5) OPen browser and type the url http://localhost:8080/HotelReservation/
+	
+	Login:-
+	
+	(1)Login using any username and password.
+	(2) From the menu click on "New Hotel" - create hotels from UI
+	(3)Then come to the dashboard again and click on BOOK A ROOM - this UI will help u to book rooms and will show the 
+		amount needs to be paid
+	(4)VIEW LOWEST PRICED HOTEL is for viewing the lowest price hotels in particular location
+	
+
+Yet to do
+	(1)Spring security is yet to implement with spring boot
+	(2)Java and AngulaJS test case execution is pending
